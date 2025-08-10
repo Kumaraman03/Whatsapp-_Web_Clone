@@ -1,0 +1,36 @@
+/* Sidebar.css */
+
+/* Sidebar container */
+.sidebar {
+  width: 33.3%; /* w-1/3 */
+  background-color: #f3f4f6; /* Tailwind's bg-gray-100 */
+  padding: 16px; /* p-4 */
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+/* Each user item */
+.sidebar-user {
+  padding: 8px; /* p-2 */
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.sidebar-user:hover {
+  background-color: #e5e7eb; /* Tailwind's hover:bg-gray-200 */
+}
+
+/* User name */
+.sidebar-user h3 {
+  font-weight: bold; /* font-bold */
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+/* Last message */
+.sidebar-user p {
+  font-size: 14px; /* text-sm */
+  color: #6b7280; /* Tailwind's text-gray-500 */
+  margin: 0;
+}
